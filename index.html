@@ -10,15 +10,45 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 		<meta charset="UTF-8">
-		<title>Nina Carducci — Photographe</title> <!-- Ajout du titre de la page -->
+		<title>Nina Carducci | Photographe en Île-de-France</title> <!-- Ajout du titre de la page -->
 		<meta name="description" content="Nina Carducci, photographe professionnelle en région Île-de-France, vous propose de saisir les merveilleux moments d'une vie au travers de son regard et de sa technique."> <!-- Ajout de la description du site web -->
+
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "ProfessionalService",
+				"name": "Nina Carducci",
+				"image": "https://arthur-vancop.github.io/assets/images/nina.jpg",
+				"url": "arthur-vancop.github.io",
+				"telephone": "05 56 67 78 89",
+				"address": {
+					"@type": "PostalAddress",
+					"streetAddress": "68 avenue Alsace-Lorraine",
+					"addressLocality": "Bordeaux",
+					"postalCode": "33200",
+					"addressCountry": "FR"
+			    },
+				"openingHoursSpecification": {
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": [
+					"Monday",
+					"Tuesday",
+					"Wednesday",
+					"Thursday",
+					"Friday"
+					],
+					"opens": "10:00",
+					"closes": "19:00"
+			    } 
+			}
+		</script>
 	</head>
 
 	<body>
 
 		<header>
 			<div class="top-header">
-				<h1 class="name">Nina Carducci — Photographe</h1> <!-- Changement de "h3" en "h1" et ajout du mot-clé "Photographe" -->
+				<h1 class="name">Nina Carducci <span id="name_desc">| Photographe en Île-de-France</span></h1> <!-- Changement de "h3" en "h1" et ajout du mot-clé "Photographe" -->
 				<nav> <!-- Changement de <div class="nav"> en <nav> -->
 					<ul>
 						<li><a href="#about">À propos</a></li>
@@ -66,7 +96,7 @@
 				</div>
 				<div id="about-me">
 					<h2 class="about-me__title">A propos de moi</h2> <!-- Changement de "h3" en "h2" -->
-					<h6 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestinée. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h6>
+					<h3 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestinée. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h3> <!-- Changement de h6 en h3 -->
 					<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de <strong>photographies</strong> pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 						C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos <strong>photos.</strong></p> <!-- Ajout de balises "strong" -->
 				</div>
